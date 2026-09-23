@@ -1,0 +1,14 @@
+# Core
+pandas>=2.2
+numpy>=1.26
+scikit-learn>=1.5
+joblib>=1.4
+SQLAlchemy>=2.0
+psycopg2-binary>=2.9
+
+# Dashboard
+streamlit>=1.40
+plotly>=5.24
+
+# Optional GenAI layer (only used when ANTHROPIC_API_KEY is set)
+anthropic>=1.8

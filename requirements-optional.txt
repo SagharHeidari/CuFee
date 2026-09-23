@@ -1,0 +1,8 @@
+# Heavier NLP models (several GB with PyTorch). Install only when you want to
+# compare them against the TF-IDF baseline:
+#   python -m src.pipeline --sentiment-backend transformer --topic-backend bertopic
+-r requirements.txt
+transformers>=4.44
+torch>=2.3
+sentence-transformers>=3.0
+bertopic>=0.16
